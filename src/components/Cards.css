@@ -1,0 +1,55 @@
+.Cards {
+    justify-content: space-evenly;
+    width: 282px;
+    height: 348px;
+    border: 1px solid #E1E3E6;
+    box-shadow: 1px 2px 8px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    object-fit: fill;
+}
+
+.MoviePoster {
+    position: absolute;
+    width: 282px;
+    height: 300px;
+    object-fit: fill;
+    margin-left: 0vw;
+    border-radius: 7px 7px 0px 0px;
+    cursor: pointer;
+}
+
+.MovieName {
+    margin-left: 0vw;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+    margin-top: 258.5px;
+    color: #000000;
+}
+
+.Rating {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 200px;
+    width: 35px;
+    height: 34px;
+    left: 8px;
+    background-color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: 1vw;
+
+}
